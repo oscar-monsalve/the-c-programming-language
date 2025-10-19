@@ -4,8 +4,7 @@
 
 /* Print Fahrenheit-Celsius table
    for fahr = 0, 20, ..., 300 */
-int main()
-{
+int main(void) {
     const int LOWER_BOUND = 0;
     const int UPPER_BOUND = 300;
     const int STEP = 20;
@@ -24,3 +23,6 @@ int main()
 
     return 0;
 }
+
+// NOTE: If all operands from an operation are integers then a integer operation is performed.
+// If at least one operand is a floating point number then a floating point operation will be performed.

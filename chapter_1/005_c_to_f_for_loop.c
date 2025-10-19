@@ -18,8 +18,7 @@
 #define STEP 20
 
 
-int main()
-{
+int main(void) {
     printf("°C\t°F\n");
 
     for (int celsius = UPPER; celsius >= LOWER; celsius -= STEP) {
@@ -28,3 +27,8 @@ int main()
 
     return 0;
 }
+
+// NOTE: Sometimes the for loop can be more explicit and more readable then the
+// while loop because it's more compact. The initialization and the incrementation
+// of the counter variable is done through the for loop params. However, the while
+// loop can be, sometimes, more customizable.

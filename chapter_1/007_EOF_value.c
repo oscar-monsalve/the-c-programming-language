@@ -2,8 +2,9 @@
 
 #include <stdio.h>
 
-int main()
-{
-
-    printf("EOF value: %d\n", EOF);
+int main(void) {
+    printf("The 'EOF' value is: %d\n", EOF);
+    return 0;
 }
+
+// NOTE: The value of the EOF character is -1, which is an integer.

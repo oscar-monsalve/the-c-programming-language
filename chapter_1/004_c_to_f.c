@@ -4,8 +4,7 @@
 
 /* Print Celsius-Fahrenheit table
    for celsius = 0, 20, ..., 300 */
-int main()
-{
+int main(void) {
     const int LOWER_BOUND = 0;
     const int UPPER_BOUND = 300;
     const int STEP = 20;

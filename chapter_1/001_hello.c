@@ -2,9 +2,10 @@
 
 #include <stdio.h>
 
-int main()
-{
+int main(void) {
     // printf("Hello, World\n);  // Closing quotes are not written. The compiler warns about this.
 
     printf("Hello, World\n");
+
+    return 0;
 }
