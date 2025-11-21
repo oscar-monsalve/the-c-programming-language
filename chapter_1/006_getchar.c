@@ -1,4 +1,4 @@
-// Exercise 1-6, pag. 17.
+// Exercise 1-6, page 17.
 
 #include <stdio.h>
 
