@@ -1,4 +1,4 @@
-/* Exercise 1-8, pag. 20. Write a program to count blanks, tabs and new lines */
+/* Exercise 1-8, page 20. Write a program to count blanks, tabs and new lines */
 
 #include <stdio.h>
 
@@ -24,7 +24,7 @@ int main(void) {
     }
 
     printf("Blanks\tTabs\tNew lines\n");
-    for (int i = 0; i <= 24; i++) {
+    for (int i = 0; i <= 24; ++i) {
         printf("-");  // Print horizontal lines for the width of the table title
     }
     printf("\n");
