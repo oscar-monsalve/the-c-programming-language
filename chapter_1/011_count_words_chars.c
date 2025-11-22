@@ -1,4 +1,4 @@
-/* Exercise 1-11, pag. 21. How would you test the word count program? What kinds of input are
+/* Exercise 1-11, page 21. How would you test the word count program? What kinds of input are
    most likely to uncover a bugs if there are any?
    */
 
