@@ -1,10 +1,44 @@
-# Ignore all
+# Ignore all files without an extension
 *
-
-# Unignore all with extensions
+!*/
 !*.*
 
-# Unignore all dirs
-!*/
+# Don't ignore Makefile
+!Makefile
 
-### Above combination will ignore all files without extension ###
+# Unknoun files
+*.ipch
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.bin
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
